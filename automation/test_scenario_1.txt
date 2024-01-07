@@ -1,0 +1,31 @@
+[Running] python -u "c:\BLACK\OneDrive\Projects\princhealth_test\automation\run_scenario_1.py"
+Getting Variables
+sql_kwargs: {'sql_param_1': '1996-11', 'sql_param_2': '1996-10'}
+Executing SQL: scenario_1_delete
+Executed
+Executing SQL: scenario_1_insert
+Executed
+Executing SQL: scenario_1_result
+Executed
+Result:
+  yearMonth  cnt_record
+0   1996-11          39
+Completed
+
+[Done] exited with code=0 in 0.64 seconds
+
+[Running] python -u "c:\BLACK\OneDrive\Projects\princhealth_test\automation\run_scenario_1.py"
+Getting Variables
+sql_kwargs: {'sql_param_1': '1996-12', 'sql_param_2': '1996-11'}
+Executing SQL: scenario_1_delete
+Executed
+Executing SQL: scenario_1_insert
+Executed
+Executing SQL: scenario_1_result
+Executed
+Result:
+  yearMonth  cnt_record
+0   1996-12          49
+Completed
+
+[Done] exited with code=0 in 0.621 seconds
